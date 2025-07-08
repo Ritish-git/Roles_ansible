@@ -1,2 +1,10 @@
 ---
 # vars file for 1-click-deployment
+Tomcat_download_url:  https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.105/bin/apache-tomcat-9.0.105.tar.gz
+Tomcat_download_dest: /home/user1/
+tomcat_app_owner: user1
+tomcat_app_group: user1
+tomcat_userfile_dest: /home/user1/apache-tomcat-9.0.105/conf/tomcat-users.xml
+tomcat_contextfile_dest: /home/user1/apache-tomcat-9.0.105/webapps/manager/META-INF/context.xml
+bucket-name: gameoflife12
+name of artifact: gameoflife.war
