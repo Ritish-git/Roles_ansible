@@ -33,7 +33,7 @@
       src: "{{Tomcat_download_dest}}"
       dest: "{{Tomcat_download_dest}}"
       owner: "{{tomcat_app_owner}}"
-      group: "{{tomcat_app_group}}""
+      group: "{{tomcat_app_group}}"
       remote_src: yes
 
   - name: Copy tomcat users file to tomcat server
